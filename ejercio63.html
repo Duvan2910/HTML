@@ -1,0 +1,11 @@
+var canvas = document . getElementById('canvas1')
+ctx =canvas.getcontext('2d');
+ctx.font ="bold 22px tahoma";
+ctx.textalign="star";
+ctx.filltext("star",10,30);
+ctx.translate(100, 150);
+ctx.filltext("after translate",0,0)
+ctx.rotate(1)
+ctx.filltext("after rotate",0,0);
+ctx . scale(1.5,4);
+ctx.filltext("after scale",0,20)
